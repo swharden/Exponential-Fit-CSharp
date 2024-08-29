@@ -6,6 +6,8 @@ Exponential fit code examples using C#
 
 Exponential curves which pass through 0 can be described using two variables. Data can be translated from exponential into linear space, fitted using a linear least squares strategy, then the result translated back into exponential space.
 
+![](dev/fitSimple.png)
+
 ## Advanced Exponential Curve Fitting
 
 Exponential curves that do not pass through the origin are represented by equations containing 3 unknowns and cannot be fitted using a linear fitter. These advanced equations are best fitted using gradient descent or other methods which seek to minimize the error function. For more, see:
